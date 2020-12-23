@@ -61,6 +61,12 @@ input[type='text'] {
   margin: auto;
 }
 
+@media(max-width: 992px) {
+  input[type='text'] {
+    font-size: 11px;
+  }
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
